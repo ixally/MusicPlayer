@@ -10,6 +10,7 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install --upgrade pip
+RUN pip3 uninstall -y pytgcalls
 RUN pip3 install -U -r requirements.txt
 
 # Setting up working directory

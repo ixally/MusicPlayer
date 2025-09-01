@@ -29,7 +29,6 @@ from pyrogram.raw.types import InputPeerChannel
 from pytgcalls.types import AudioQuality, VideoQuality
 from pyrogram.raw.functions.phone import CreateGroupCall
 
-
 safone = {}
 ydl_opts = {
     "quiet": True,
